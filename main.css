@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    align-items: center;
+    max-width: 500px;
+}
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 40px;
+    font-weight: bold;
+}
+
+form {
+    max-width: 400px;
+    width: 100%;
+    margin: 0 auto;
+    align-items: center;
+}
+
+button {
+        cursor: pointer;
+        font-weight: bold;
+}
+
+.check {
+    list-style: none;
+    cursor: pointer;
+}
+
+.completed {
+        text-decoration: line-through;
+}
